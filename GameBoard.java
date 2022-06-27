@@ -13,7 +13,7 @@ public class GameBoard {
 	public GameBoard() {
 		// Game board array is initialized, holding the lengths and locations of snakes and ladders
 		tile= new int [100];
-	    tile[2]= 48;
+		tile[2]= 48;
 	    tile[5]= 21;
 	    tile[19]= 50;
 	    tile[24]= -20;
