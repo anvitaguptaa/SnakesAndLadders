@@ -28,7 +28,7 @@ public class OpponentXML {
 		for(Opponent opponent:opponents) {
 			boolean done = false;
      
-			//Updates elements
+			// Updates elements
 			elements = leaderboard.getChildElements();
       
 			//Loops elements
@@ -50,7 +50,7 @@ public class OpponentXML {
 				index++;
 			}
       
-			//	Updates the elements
+			// Updates the elements
 			elements = leaderboard.getChildElements();
       
 			// Loops through the XML while checking if it is complete
