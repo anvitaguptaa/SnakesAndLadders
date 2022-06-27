@@ -27,8 +27,8 @@ public class GameBoard {
 		tile[90]= -30;
 		tile[98]= -30;
 	    
-	    // Creates opponents
-	    opponents = UserInterface.createOpponents();
+		// Creates opponents
+		opponents = UserInterface.createOpponents();
 	}
 	
 	// Represents the roll of a single six-sided die
