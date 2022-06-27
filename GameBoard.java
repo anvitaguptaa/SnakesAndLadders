@@ -125,10 +125,10 @@ public class GameBoard {
 		// Creates game board object
 		GameBoard game= new GameBoard();
 	    
-	   // Calculates total game time
+		// Calculates total game time
 		double startTime=System.currentTimeMillis();
-	   
-	    // Gets the winning opponent
+		
+		// Gets the winning opponent
 		int winner = game.playGame(0, 1);
 		double totalTime=(System.currentTimeMillis()-startTime)/1000;
 	    
