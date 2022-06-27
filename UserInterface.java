@@ -83,7 +83,7 @@ public class UserInterface {
 	{
 		System.out.println();
 		System.out.println("The objective of the game is to be the first opponent to land on, or pass, the 100th tile of the gameboard.\n" 
-							+ "Players will take turns rolling a die.\n" 
+		+ "Players will take turns rolling a die.\n" 
 							+ "The number rolled on the die indicates the number of spaces a player must move on their turn.\n" 
 							+ "The first opponent to land on, or past, tile 100 is the winner; other opponents lose and the game ends.\n" 
 							+ "There are no levels in this game, only one round until an opponent wins.\n" 
