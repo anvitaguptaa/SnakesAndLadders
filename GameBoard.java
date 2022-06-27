@@ -14,18 +14,18 @@ public class GameBoard {
 		// Game board array is initialized, holding the lengths and locations of snakes and ladders
 		tile= new int [100];
 		tile[2]= 48;
-	    tile[5]= 21;
-	    tile[19]= 50;
-	    tile[24]= -20;
-	    tile[33]= -33;
-	    tile[35]= 19;
-	    tile[46]= -28;
-	    tile[62]= 32;
-	    tile[64]= -13;
-	    tile[67]= 30;
-	    tile[86]= -30;
-	    tile[90]= -30;
-	    tile[98]= -30;
+		tile[5]= 21;
+		tile[19]= 50;
+		tile[24]= -20;
+		tile[33]= -33;
+		tile[35]= 19;
+		tile[46]= -28;
+		tile[62]= 32;
+		tile[64]= -13;
+		tile[67]= 30;
+		tile[86]= -30;
+		tile[90]= -30;
+		tile[98]= -30;
 	    
 	    // Creates opponents
 	    opponents = UserInterface.createOpponents();
